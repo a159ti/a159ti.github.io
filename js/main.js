@@ -196,11 +196,11 @@ $(document).ready(function() {
         if (needed > 0) {
           needed = needed - 1;
           SetFilesNeeded(needed);
-          DownloadingFile("С " + needed);
+          DownloadingFile("Осталось " + needed);
         }
       }, 500);
 
-      SetStatusChanged("Testing..");
+      SetStatusChanged("Проверка..");
     }
   }, 1000);
 });
